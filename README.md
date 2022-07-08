@@ -1,4 +1,4 @@
-# FaxNoLogs Containers Preparation and Database Update Setup
+# FaxNoLogs Containers and Database Update
 
 <details><summary>Installation Pre-requisities</summary>
 <p>
