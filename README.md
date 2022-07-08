@@ -3,7 +3,9 @@
 <details><summary>Installation Pre-requisities</summary>
 <p>
 
->Please make sure you have apply the [Initial Setup](https://github.com/kparginos/faxnologs-dbsetup)
+- Please make sure you have apply the [Initial Setup](https://github.com/kparginos/faxnologs-dbsetup).
+	
+>### If you already have done it, **DO NOT RUN IT AGAIN !!!**
 
 </p>
 </details>
