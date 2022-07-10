@@ -42,7 +42,7 @@ docker-compose up -d --no-deps faxnologs_webapp
 At the host machine run the following:
 
 ```
-docker exec faxnologs_webapp bash -c "apt-get update && apt-get -y install wget && wget --no-check-certificate https://github.com/kparginos/faxnologs-dbupdate/raw/main/DBUpdate.tar && mkdir dbupdate && tar xf DBUpdate.tar -C dbupdate && cd dbupdate && sed -i 's/localhost,1433/db/g' appsettings.json && dotnet FaxNoLogs.Migrations.dll"
+docker exec faxnologs_webapp bash -c "apt-get update && apt-get -y install wget && wget --no-check-certificate https://github.com/kparginos/faxnologs-dbupdate/raw/main/DBUpdate.tar && mkdir dbupdate && tar xf DBUpdate.tar -C dbupdate && cd dbupdate && sed -i 's/localhost,1433/db/g' appsettings.json && dotnet FaxNoLogs.Migrations.dll -u"
 ```
 
 The above command, should it run correctly, must apply the following:
