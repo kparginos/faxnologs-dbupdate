@@ -30,7 +30,7 @@ docker-compose -f FaxNoLogs-Containers-LinuxSetup.yml pull
 Once finished run the following to update the web app container:
 
 ```
-docker-compose up -d --no-deps faxnologs_webapp
+docker-compose up -f FaxNoLogs-Containers-WinSetup.yml -d --no-deps faxnologs_webapp
 ```
 
 
